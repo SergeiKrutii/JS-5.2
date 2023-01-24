@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://SergeiKrutii.github.io/JS-5.2.git/",
+  "homepage": "https://SergeiKrutii.github.io/JS-5.2/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /JS-5.2.git/"
+    "build": "parcel build src/*.html --public-url /JS-5.2/"
   },
   "repository": {
     "type": "git",
