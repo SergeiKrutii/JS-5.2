@@ -1,7 +1,7 @@
 import './css/styles.css';
 import { fetchCountries } from './api-markup.js/fetchCountries';
 import { refs } from './api-markup.js/refs';
-import { Notify } from 'notiflix/build/notiflix-notify-aio';
+import { Notify } from '../node_modules/notiflix/build/notiflix-notify-aio';
 import {
   createMarkupForAll,
   createMarkupForOne,
