@@ -1,11 +1,11 @@
 import './css/styles.css';
-import { fetchCountries } from './api-markup.js/fetchCountries';
-import { refs } from './api-markup.js/refs';
+import { fetchCountries } from './api.js/fetchCountries';
+import { refs } from './api.js/refs';
 import { Notify } from '../node_modules/notiflix/build/notiflix-notify-aio';
 import {
   createMarkupForAll,
   createMarkupForOne,
-} from './api-markup.js/data-markup';
+} from './api.js/data-markup';
 var debounce = require('lodash.debounce');
 
 const DEBOUNCE_DELAY = 300;
@@ -27,7 +27,7 @@ function findCountry(e) {
         refs.div.innerHTML = markupforOne;
       } else {
         Notify.info(
-          'Too many matches found... Please enter a more specific name().'
+          'Too many matches found... Please enter a more specific name.'
         );
         refs.div.innerHTML = '';
       }
